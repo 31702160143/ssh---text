@@ -13,6 +13,7 @@
 		0D2FB72723FE92D00048C603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2FB72623FE92D00048C603 /* Assets.xcassets */; };
 		0D2FB72A23FE92D00048C603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2FB72823FE92D00048C603 /* LaunchScreen.storyboard */; };
 		0D2FB72D23FE92D10048C603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2FB72C23FE92D10048C603 /* main.m */; };
+		0D2FB73523FE93360048C603 /* XWcat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2FB73423FE93360048C603 /* XWcat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0D2FB72923FE92D00048C603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D2FB72B23FE92D10048C603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D2FB72C23FE92D10048C603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D2FB73323FE93360048C603 /* XWcat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWcat.h; sourceTree = "<group>"; };
+		0D2FB73423FE93360048C603 /* XWcat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWcat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				0D2FB72823FE92D00048C603 /* LaunchScreen.storyboard */,
 				0D2FB72B23FE92D10048C603 /* Info.plist */,
 				0D2FB72C23FE92D10048C603 /* main.m */,
+				0D2FB73323FE93360048C603 /* XWcat.h */,
+				0D2FB73423FE93360048C603 /* XWcat.m */,
 			);
 			path = "github的SSH的测试";
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D2FB72223FE92D00048C603 /* ViewController.m in Sources */,
+				0D2FB73523FE93360048C603 /* XWcat.m in Sources */,
 				0D2FB72D23FE92D10048C603 /* main.m in Sources */,
 				0D2FB71F23FE92D00048C603 /* AppDelegate.m in Sources */,
 			);
